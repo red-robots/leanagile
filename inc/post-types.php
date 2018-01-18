@@ -1,8 +1,8 @@
 <?php 
 /* Custom Post Types */
 
-add_action('init', 'js_custom_init');
-function js_custom_init() 
+add_action('init', 'bella_js_custom_init');
+function bella_js_custom_init() 
 {
 	
 	// Register the Homepage Slides
