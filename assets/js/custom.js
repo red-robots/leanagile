@@ -36,9 +36,9 @@ jQuery(document).ready(function ($) {
 	*	Flexslider
 	*
 	------------------------------------*/
-	$('.flexslider').flexslider({
-		animation: "slide",
-	}); // end register flexslider
+	// $('.flexslider').flexslider({
+	// 	animation: "slide",
+	// }); 
 	
 	/*
 	*
@@ -83,9 +83,9 @@ jQuery(document).ready(function ($) {
 	*	Nice Page Scroll
 	*
 	------------------------------------*/
-	$(function(){	
-		$("html").niceScroll();
-	});
+	// $(function(){	
+	// 	$("html").niceScroll();
+	// });
 	
 	
 	/*

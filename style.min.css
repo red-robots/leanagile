@@ -1351,7 +1351,7 @@ a:hover,a:active{outline:0}
 }.main-navigation ul ul a:hover,.main-navigation ul ul a.focus{background-color:#047fc5;color:#444}
 .main-navigation ul li:hover>ul,.main-navigation ul li.focus>ul{left:auto}
 .main-navigation li{width:100%;position:relative;display:inline-block}
-@media screen and (min-width:600px){.main-navigation li{width:auto}
+@media screen and (min-width:600px){.main-navigation li{width:auto;line-height:1.5}
 }.main-navigation li.last a{border-right:0 solid #333}
 .main-navigation a{display:inline-block;text-decoration:none;border-bottom:0;color:#fff;text-transform:uppercase;white-space:nowrap;margin:0;padding:20px 0;font-family:'Julius Sans One',sans-serif;font-size:18px}
 @media screen and (min-width:600px){.main-navigation a{border-right:1px solid #333;padding:0 15px;font-size:12px}

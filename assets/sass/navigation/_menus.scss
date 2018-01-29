@@ -114,6 +114,7 @@
 		display: inline-block;
 		@media screen and (min-width: $tabwidth) {
 			width: auto;
+			line-height: 1.5;
 		}
 		@media screen and (min-width: $deskwidth) {
 			

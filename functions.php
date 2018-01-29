@@ -80,9 +80,19 @@
 		
 		// other scripts...
 		wp_register_script(
+			'vendors',
+			get_bloginfo('template_directory') . '/assets/js/vendors.js',
+			array('jquery'),'20120206', 
+			true  );
+		wp_enqueue_script('vendors');
+
+
+		// other scripts...
+		wp_register_script(
 			'custom',
-			get_bloginfo('template_directory') . '/js/custom.js',
-			array('jquery') );
+			get_bloginfo('template_directory') . '/assets/js/custom.js',
+			array('jquery'), '20120206', 
+			true );
 		wp_enqueue_script('custom');
 		
 	}
