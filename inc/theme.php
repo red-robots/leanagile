@@ -4,10 +4,10 @@
   Custom client login, link and title.
 
 */
-function custom_login_logo() {
+function bella_custom_login_logo() {
         echo '<style type="text/css">h1 a { background: url('.get_bloginfo('template_directory').'/images/login-logo.png) 50% 50% no-repeat !important; }</style>';
 }
-add_action('login_head', 'custom_login_logo'); 
+add_action('login_head', 'bella_custom_login_logo'); 
 
 function my_login_logo_url() {
     return get_bloginfo( 'url' );
