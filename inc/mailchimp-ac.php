@@ -65,7 +65,14 @@ if( isset( $emailUrl )) {
         <div class="response" id="mce-success-response" style="display:none"></div>
     </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_df06d21576b6ebaa8f4189dbc_704b71232a" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class="clear">
+    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+    <div class="unsubscribe" style="float: right; display: inline-block; padding: 10px 20px 0 0">
+        <a href="https://pbworks.us9.list-manage.com/unsubscribe?u=df06d21576b6ebaa8f4189dbc&id=704b71232a" target="_blank">
+            Unsubscribe
+        </a>
+    </div>
+    </div>
     </div>
 </form>
 </div>
